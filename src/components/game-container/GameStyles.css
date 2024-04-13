@@ -1,0 +1,200 @@
+.game-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content:space-evenly;
+    height: 60vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.paper-btn {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-paper-btn {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rock-btn{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inner-rock-btn{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.scissor-btn{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-scissor-btn{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opponent-move{
+    color:red;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+}
+.paper-img{
+}
+.rock-img{
+    
+}.scissor-img{
+    
+}
+/* The mobile-first pre-defined media queries: */
+@media (min-width: 340px) {
+    .paper-btn {
+        height: 7rem;
+        width: 7rem;
+    }
+    .inner-paper-btn {
+        height: 70%;
+        width: 70%;
+    }
+    .rock-btn{
+        height: 7rem;
+        width: 7rem;
+        
+    }
+    .inner-rock-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+    .scissor-btn{
+        height: 7rem;
+        width: 7rem;
+        
+    }
+    .inner-scissor-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+      
+}
+
+@media (min-width: 475px) {
+    .paper-btn {
+        height: 8rem;
+        width: 8rem;
+    }
+    .inner-paper-btn {
+        height: 70%;
+        width: 70%;
+    }
+    .rock-btn{
+        height: 8rem;
+        width: 8rem;
+        
+    }
+    .inner-rock-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+    .scissor-btn{
+        height: 8rem;
+        width: 8rem;
+        
+    }
+    .inner-scissor-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+      
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+    .paper-btn {
+        height: 8rem;
+        width: 8rem;
+    }
+    .inner-paper-btn {
+        height: 70%;
+        width: 70%;
+    }
+    .rock-btn{
+        height: 8rem;
+        width: 8rem;
+        
+    }
+    .inner-rock-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+    .scissor-btn{
+        height: 8rem;
+        width: 8rem;
+        
+    }
+    .inner-scissor-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+  
+    
+}
+
+@media (min-width: 1024px) {
+    .paper-btn {
+        height: 10rem;
+        width:10rem;
+    }
+    .inner-paper-btn {
+        height: 70%;
+        width: 70%;
+    }
+    .rock-btn{
+        height: 10rem;
+        width: 10rem;
+        
+    }
+    .inner-rock-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+    .scissor-btn{
+        height: 10rem;
+        width: 10rem;
+        
+    }
+    .inner-scissor-btn{
+        height: 70%;
+        width: 70%;
+
+    }
+  
+}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
+
+/*

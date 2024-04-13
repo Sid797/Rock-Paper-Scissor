@@ -1,0 +1,7 @@
+.scissor-btn{
+    border: 0;    background-image: radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+.inner-scissor-btn{
+    border-top: 0.25rem solid rgb(210, 208, 208);
+    background-color: white;
+}
