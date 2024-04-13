@@ -16,5 +16,5 @@ To install and run the game locally, follow these steps:
 4. Start the game: `npm run dev/yarn dev`
 
 ## Technologies Used
-- React 
+- My sanity 
 
